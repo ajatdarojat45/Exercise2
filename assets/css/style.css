@@ -1,0 +1,48 @@
+.container {
+    font-size: 25px;
+    margin: 0 auto;
+    width: 10em;
+    /* border: 1px solid black; */
+}
+
+.row {
+    width: 100%;
+    height: 70px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.col {
+    width: 25%;
+    margin: 5px;
+}
+
+.button {
+    border: 1px solid black;
+    /* background: black; */
+    color: black;
+    cursor: pointer;
+    float: left;
+    font: inherit;
+    margin: 0.25em;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+
+.display {
+    color: black;
+    float: left;
+    line-height: 3em;
+    text-align: right;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.operator {
+    background-color: rgb(230, 230, 230);
+}
