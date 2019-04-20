@@ -1,14 +1,20 @@
+body{
+    margin: 5% auto;
+}
+
 .container {
     font-size: 25px;
     margin: 0 auto;
-    width: 10em;
-    /* border: 1px solid black; */
+    width: 350px;
+    border: 1px solid black;
+    padding: 0px 5px 5px 5px;
+    border-radius: 5%
 }
 
 .row {
     width: 100%;
     height: 70px;
-    margin: 5px;
+    /* margin: 5px; */
     display: flex;
     justify-content: space-around;
 }
@@ -20,12 +26,10 @@
 
 .button {
     border: 1px solid black;
-    /* background: black; */
     color: black;
     cursor: pointer;
     float: left;
     font: inherit;
-    margin: 0.25em;
     width: 100%;
     height: 100%;
     transition: all 0.5s;
@@ -45,4 +49,18 @@
 
 .operator {
     background-color: rgb(230, 230, 230);
+}
+
+.footer1 {
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center
+
+}
+.footer2 {
+    font-size: 10px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    text-align: center
 }
